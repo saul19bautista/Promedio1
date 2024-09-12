@@ -10,10 +10,10 @@ function calcularPromedioDefecto(numeros) {
 
 // Versión corregida
 function calcularPromedioCorregido(numeros) {
-    if (numeros.length === 0) return 0; // Manejar el caso de array vacío entonces
+    if (numeros.length === 0) return 0; // Manejar el caso de array vacío
     let suma = 0;
-    for (let j = 0; j < numeros.length; j++) {
-        suma += numeros[j];
+    for (let i = 0; i < numeros.length; i++) {
+        suma += numeros[i];
     }
     return suma / numeros.length;
 }

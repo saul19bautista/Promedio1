@@ -5,7 +5,7 @@ function calcularMedianaDefecto(numeros) {
     if (numeros.length === 0) {
         throw new Error("Array vacío"); // Lanzar un error para arrays vacíos
     }
-    numeros.sort((a, b) => a - b);
+    numeros.sort((a, b) => a - c);
     const mitad = Math.floor(numeros.length / 2);
     if (numeros.length % 2 === 0) {
         return (numeros[mitad - 1] + numeros[mitad]) / 2;
